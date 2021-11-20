@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+* ::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.father-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.avanger-image {
+  width: 300px;
+  height: 160px;
+}
+
+.father {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.buttons {
+  padding: 0;
+  position: relative;
+  bottom: 365px;
+  left: 120px;
+}
+.card{
+  margin-bottom: 30px;
+}
+.card:hover{
+  -webkit-box-shadow: 0px 0px 17px 0px #000000; 
+box-shadow: 0px 0px 17px 0px #000000;
+}
+.count-btn{
+  font-size: 50px;
+}
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+.rotate {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.buttons {
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
